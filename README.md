@@ -1,7 +1,3 @@
-# Code Institute
+# MongoDB_mini_project
 
-Welcome Sam ,
-
-We have preinstalled all of the tools you need to get started.
-
-Happy coding!
+Mini CRUD project using MongoDB and python.
