@@ -2,7 +2,7 @@ import pymongo
 import os
 
 MONGODB_URI = os.getenv("MONGO_URI")
-DBS_NAME = "mytestdb"
+DBS_NAME = "myTestDB"
 COLLECTION_NAME = "myFirstMDB"
 
 def mongo_connect(url):
@@ -16,6 +16,7 @@ def mongo_connect(url):
 conn = mongo_connect(MONGODB_URI)
 
 coll = conn[DBS_NAME][COLLECTION_NAME]
+
 
 documents = coll.find()
 
